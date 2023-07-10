@@ -7,11 +7,20 @@ namespace RPG.Movement
     public class Mover : MonoBehaviour, IAction
     {
         NavMeshAgent navMeshAgent;
+        Health health;
 
         // Update is called once per frame
         void Update()
         {
+            navMeshAgent.enabled = !health.IsDead();
+            
             UpdateAnimator();
+        }
+
+        private void Start()
+        {
+            navMeshAgent = GetComponent<NavMeshAgent>();
+            health = GetComponent<Health>();
         }
 
         private void UpdateAnimator()
@@ -26,11 +35,6 @@ namespace RPG.Movement
         {
             GetComponent<ActionScheduler>().StartAction(this);
             MoveTo(destination);
-        }
-        
-        private void Start() 
-        {
-            navMeshAgent = GetComponent<NavMeshAgent>();
         }
 
         public void Cancel() 

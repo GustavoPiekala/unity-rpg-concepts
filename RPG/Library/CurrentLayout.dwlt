@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 102
+  controlID: 55
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -460,20 +460,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3e4ffdff
-      m_LastClickedID: -176322
-      m_ExpandedIDs: 3e4ffdff3e5afdff1472fdff6472fdff489dfdff809efdffb6a4fdfff2aafdffaebafdffcec9fdff7ccdfdff9ad3fdff3cdafdff9cf4fdff38f6fdff3afcfdffde0bfeff060cfeffae33feffee35feff8c63feffb463feff3264feffd665feff2681feff6683feffdad0feffd2dcfefffcdefeff98ebfeffecedfeff284bffff56f7ffffd4fbffffe80d0000300e0000cc5801007e590100f2ea01005a0b020014c5020088e2020076660300e4660300
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: aa7dffff9682ffffd888ffff4cb5ffff96dcffff24e1ffff8ae4ffffb2e4ffffd2fbfffff4ffffffc00f00008e590000dc6e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Fader
-        m_OriginalName: Fader
+        m_Name: SpawnPoint
+        m_OriginalName: SpawnPoint
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -176322
+        m_UserData: 28850
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -534,10 +534,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 35}
-    m_SelectedIDs: dc0a0000
-    m_LastClickedID: 2780
-    m_ExpandedIDs: 00000000ac090000dc0a0000e60a00004c0b0000700c0000c80c000000ca9a3b
+    scrollPos: {x: 0, y: 55}
+    m_SelectedIDs: 660c0000
+    m_LastClickedID: 3174
+    m_ExpandedIDs: 00000000340b00006c0c0000c20c0000ea0d0000480e0000140f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -565,7 +565,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 68f0ffff
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ac090000e60a00004c0b0000e60b0000700c0000940d0000
+    m_ExpandedIDs: 00000000340b0000660c00006c0c0000c20c0000ea0d0000480e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -604,7 +604,7 @@ MonoBehaviour:
         y: 0
         width: 0
         height: 0
-      m_UserData: 3466
+      m_UserData: 3850
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -677,9 +677,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 55.44823, y: 18.382792, z: 8.137787}
+    m_Target: {x: 5.931965, y: 0.9605243, z: -38.857704}
     speed: 2
-    m_Value: {x: 55.44823, y: 18.382792, z: 8.137787}
+    m_Value: {x: 5.931965, y: 0.9605243, z: -38.857704}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -707,13 +707,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.005655204, y: -0.3311423, z: -0.0019823066, w: -0.94356173}
+    m_Target: {x: -0.023158839, y: -0.92864245, z: 0.36554733, w: -0.05883947}
     speed: 2
-    m_Value: {x: 0.0056552044, y: -0.33114234, z: -0.0019823068, w: -0.9435618}
+    m_Value: {x: -0.023158839, y: -0.92864245, z: 0.36554733, w: -0.05883947}
   m_Size:
-    m_Target: 110.16854
+    m_Target: 5.1382947
     speed: 2
-    m_Value: 110.16854
+    m_Value: 5.1382947
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -834,7 +834,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -98010
+  m_LastSelectedObjectID: 25020
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -895,29 +895,4 @@ MonoBehaviour:
     y: 73
     width: 436
     height: 927
-  m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &24
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12059, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEditor:UnityEditor.Experimental.TerrainAPI:PaintTextureTool
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Failed to load
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
   m_PersistentViewDataDictionary: {fileID: 0}

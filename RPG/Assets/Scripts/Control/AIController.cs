@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using RPG.Combat;
 using RPG.Core;
 using RPG.Movement;
@@ -14,7 +14,7 @@ namespace RPG.Control
         [SerializeField] PatrolPath patrolPath;
         [SerializeField] float waypointTolerance = 1f;
         [SerializeField] float waypointWaiting = 2f;
-
+    
 
         Fighter fighter;
         Health health;

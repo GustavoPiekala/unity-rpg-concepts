@@ -32,32 +32,32 @@ PrefabInstance:
     - target: {fileID: 7576341129212638798, guid: 65b43efcedd504d44b89ffe228d0b5dd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.79
       objectReference: {fileID: 0}
     - target: {fileID: 7576341129212638798, guid: 65b43efcedd504d44b89ffe228d0b5dd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 22.454561
       objectReference: {fileID: 0}
     - target: {fileID: 7576341129212638798, guid: 65b43efcedd504d44b89ffe228d0b5dd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -52.22
       objectReference: {fileID: 0}
     - target: {fileID: 7576341129212638798, guid: 65b43efcedd504d44b89ffe228d0b5dd,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7576341129212638798, guid: 65b43efcedd504d44b89ffe228d0b5dd,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7576341129212638798, guid: 65b43efcedd504d44b89ffe228d0b5dd,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7576341129212638798, guid: 65b43efcedd504d44b89ffe228d0b5dd,
         type: 3}
@@ -86,18 +86,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2508506758367497106, guid: 65b43efcedd504d44b89ffe228d0b5dd,
         type: 3}
-      propertyPath: weaponDamage
-      value: 4
+      propertyPath: weaponRange
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2508506758367497106, guid: 65b43efcedd504d44b89ffe228d0b5dd,
         type: 3}
-      propertyPath: weaponRange
-      value: 1
+      propertyPath: weaponDamage
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7104210365730233209, guid: 65b43efcedd504d44b89ffe228d0b5dd,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.91
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: 9003437715262850312, guid: 65b43efcedd504d44b89ffe228d0b5dd,
         type: 3}
@@ -374,6 +374,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6643264218995151256}
     - target: {fileID: 13707166, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bfbe2e8b331e2cc42be1591f949c0e41, type: 2}
+    - target: {fileID: 13707166, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
       propertyPath: m_Bones.Array.data[0]
       value: 
       objectReference: {fileID: 6643264218995151256}
@@ -573,10 +577,6 @@ PrefabInstance:
       propertyPath: m_RootBone
       value: 
       objectReference: {fileID: 6643264218995151256}
-    - target: {fileID: 13707166, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: bfbe2e8b331e2cc42be1591f949c0e41, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
 --- !u!4 &6643264218995201708 stripped
